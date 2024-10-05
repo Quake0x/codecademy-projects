@@ -1,0 +1,50 @@
+# Grammar Checker Project
+
+Welcome to the Grammar Checker project! This project is part of the Codecademy course **[Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)**, where I developed a program to improve the quality of a paragraph by analyzing and editing the text.
+
+## Project Overview
+
+In this project, I applied my JavaScript knowledge to create a program that counts the number of words in a paragraph, filters out unnecessary words, corrects misspellings, and replaces inappropriate language. The program illustrates how to manipulate strings and arrays effectively to enhance text quality.
+
+### Key Features
+
+1. **Paragraph Initialization**: The program begins with a variable `story` that holds the initial paragraph to be edited.
+
+2. **Word Splitting**:
+   - **Array Conversion**: The `story` string is converted into an array of words using the `.split()` method.
+   - The resulting `storyWords` array allows for further manipulation throughout the project.
+
+3. **Counting Words**: 
+   - A variable named `count` is initialized to store the word count.
+   - The program uses the `.forEach()` method to iterate over the `storyWords` array, incrementing the `count` variable to determine the total number of words in the story.
+
+4. **Filtering Unnecessary Words**: 
+   - The program filters out the word "literally" from the `storyWords` array to shorten the text.
+
+5. **Correcting Misspellings**:
+   - The program uses the `.map()` method to correct the misspelled word "beautifull" to "beautiful."
+
+6. **Replacing Inappropriate Language**: 
+   - The program identifies and replaces the "bad" word "freaking" with "really."
+
+7. **Length Check**: 
+   - The program ensures every word in the story is 10 characters or less using the `.every()` method.
+
+8. **Final Edits**: 
+   - The program makes additional edits to ensure clarity and accessibility.
+
+### How to Run the Project
+
+To run the Grammar Checker project:
+
+1. **Copy the Code**: Copy the JavaScript code provided in this project.
+2. **Use a JavaScript Environment**: Open your preferred JavaScript environment, such as a web browser console or a code editor with a built-in terminal.
+3. **Paste the Code**: Paste the copied code into the console or your JavaScript file.
+4. **Modify the `story` Variable**: Change the `story` variable to represent your own paragraph.
+5. **Execute the Code**: Press Enter to run the code in the console or run the script if you're using a code editor.
+
+### Learning Objectives
+
+- **Understanding Array Methods**: This project helped me learn how to utilize various array methods like `.forEach()`, `.filter()`, and `.map()`.
+- **Performing Text Manipulation**: I gained practical experience in manipulating strings and arrays to edit text effectively.
+- **Improving Code Readability**: Implementing these methods enhanced my understanding of writing cleaner and more efficient JavaScript code.
